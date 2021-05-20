@@ -30,7 +30,7 @@
 	job_description = "	The Head of Security manages the Security Department, keeping the station safe and making sure the rules are followed. They are expected to \
 						keep the other Department Heads, and the rest of the crew, aware of developing situations that may be a threat. If necessary, the HoS may \
 						perform the duties of absent Security roles, such as distributing gear from the Armory."
-	alt_titles = list("Security Commander" = /datum/alt_title/sec_commander, "Chief of Security" = /datum/alt_title/sec_chief)
+	alt_titles = list("Security Commander" = /datum/alt_title/sec_commander, "Chief of Security" = /datum/alt_title/sec_chief, "Security Commisar" = /datum/alt_title/sec_commisar)
 
 // Head of Security Alt Titles
 /datum/alt_title/sec_commander
@@ -38,6 +38,9 @@
 
 /datum/alt_title/sec_chief
 	title = "Chief of Security"
+
+/datum/alt_title/sec_commisar
+	title = "Security Commisar"
 
 //////////////////////////////////
 //			Warden
@@ -63,6 +66,11 @@
 						prisoners that have been processed and brigged, and are responsible for their well being. The Warden is also in charge of distributing \
 						Armoury gear in a crisis, and retrieving it when the crisis has passed. In an emergency, the Warden may be called upon to direct the \
 						Security Department as a whole."
+	alt_titles = list("Security Sergeant" = /datum/alt_title/sec_sergeant)
+
+// Warden Alt Titles
+/datum/alt_title/sec_sergeant
+	title = "Security Sergent"
 
 //////////////////////////////////
 //			Detective
